@@ -5,6 +5,7 @@ body {
     color: #666666;
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
+    mid-width: fit-content;
     font-weight: 400;
 }
 
@@ -17,7 +18,7 @@ h6 {
     font-family: 'EB Garamond', serif;
     font-weight: 600;
     font-style: italic;
-    color: #121518;
+    color: #002d56;
 }
 
 a {
@@ -49,7 +50,7 @@ a:focus {
     position: fixed;
     display: none;
     background: #aa9166;
-    color: #121518;
+    color: #002d56;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -63,7 +64,7 @@ a:focus {
 
 .back-to-top:hover {
     color: #aa9166;
-    background: #121518;
+    background: #002d56;
 }
 
 .back-to-top i {
@@ -75,28 +76,28 @@ a:focus {
 /********** Top Bar CSS ***********/
 /**********************************/
 .top-bar {
-    position: relative;
+  position: relative;
     height: 90px;
-    background: #000000;
+    background: #94794b;
 }
 
 .top-bar .logo {
-    padding: 15px 0;
+    padding: 18px 0;
     text-align: left;
     overflow: hidden;
 }
 
 .top-bar .logo h1 {
     margin: 0;
-    color: #aa9166;
+    color: #000000;
     /*font-size: 75px;*/
-    line-height: 55px;
+    line-height: 65px;
     font-weight: 800;
 }
 
 .top-bar .logo img {
     max-width: 100%;
-    max-height: 60px;
+    max-height: 70px;
 }
 
 .top-bar .top-bar-right {
@@ -117,7 +118,7 @@ a:focus {
 }
 
 .top-bar .text h2 {
-    color: #ffffff;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -126,8 +127,8 @@ a:focus {
 }
 
 .top-bar .text p {
-    color: #ffffff;
-    font-size: 13px;
+    color: #000;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -145,7 +146,7 @@ a:focus {
     width: 60px;
     height: 100%;
     font-size: 22px;
-    color: #ffffff;
+    color: #000000;
     border-right: 1px solid rgba(255, 255, 255, .15);
 }
 
@@ -155,7 +156,7 @@ a:focus {
 
 .top-bar .social a:hover {
     color: #aa9166;
-    background: #ffffff;
+    background: #000000;
 }
 
 @media (min-width: 992px) {
@@ -208,7 +209,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #aa9166;
+    color: #000000;
     transition: none;
 }
 
@@ -240,7 +241,7 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #121518 !important;
+        background: #002d56 !important;
     }
     
     .nav-bar .navbar-brand {
@@ -258,7 +259,7 @@ a:focus {
     .nav-bar,
     .nav-bar .navbar {
         padding: 3px 0;
-        background: #121518 !important;
+        background: #002d56 !important;
     }
     
     .nav-bar a.nav-link {
@@ -342,14 +343,14 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #aa9166;
-    background: #121518;
+    background: #343a40;
     border: 2px solid #aa9166;
     border-radius: 0;
     transition: .3s;
 }
 
 .carousel .carousel-caption .btn:hover {
-    color: #121518;
+    color: #222324;
     background: #aa9166;
 }
 
@@ -408,7 +409,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #121518;
+    color: #002d56;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -422,14 +423,14 @@ a:focus {
     height: 2px;
     left: calc(50% - 50px);
     bottom: 0;
-    background: #121518;
+    background: #002d56;
 }
 
 .page-header a {
     position: relative;
     padding: 0 12px;
     font-size: 22px;
-    color: #121518;
+    color: #002d56;
 }
 
 .page-header a:hover {
@@ -444,7 +445,7 @@ a:focus {
     top: -2px;
     right: -7px;
     text-align: center;
-    color: #121518;
+    color: #002d56;
 }
 
 .page-header a:last-child::after {
@@ -485,9 +486,9 @@ a:focus {
     position: absolute;
     content: "";
     width: 100%;
-    height: 7px;
+    height: 0px;
     left: 0;
-    top: 21px;
+    top: 0px;
     background: transparent;
     border-top: 1px solid #aa9166;
     border-bottom: 1px solid #aa9166;
@@ -498,9 +499,9 @@ a:focus {
     position: absolute;
     content: "";
     width: 100%;
-    height: 7px;
+    height: 0px;
     left: 0;
-    bottom: 20px;
+    bottom: 0px;
     background: transparent;
     border-top: 1px solid #aa9166;
     border-bottom: 1px solid #aa9166;
@@ -518,7 +519,7 @@ a:focus {
 /*******************************/
 .feature-top {
     position: relative;
-    background: #121518;
+    background: #343a40;
     margin-bottom: 45px;
 }
 
@@ -596,10 +597,10 @@ a:focus {
 }
 
 .about .about-img {
-    position: relative;
+   position: relative;
     height: 100%;
     padding: 10px;
-    background: #121518;
+    background: #002d56;
 }
 
 .about .about-img img {
@@ -613,22 +614,22 @@ a:focus {
 }
 
 .about .about-text a.btn {
-    position: relative;
+   position: relative;
     margin-top: 15px;
     padding: 15px 35px;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #fbfbfb;
     border: 2px solid #aa9166;
     border-radius: 0;
-    background: #121518;
+    background: #002d56;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: #121518;
+    color: #002d56;
     background: #aa9166;
 }
 
@@ -653,7 +654,7 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: center;
-    background: #121518;
+    background: #282a2b;
     margin-bottom: 30px;
 }
 
@@ -663,17 +664,17 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000000;
+    background: #282a2b;
 }
 
 .service .service-icon i {
-    width: 100px;
-    height: 100px;
-    padding: 20px 0;
+   width: 120px;
+    height: 120px;
+    padding: 50px 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
     color: #aa9166;
-    background: #121518;
+    background: #282a2b;
     transition: .5s;
 }
 
@@ -707,12 +708,12 @@ a:focus {
     color: #aa9166;
     border: 2px solid #aa9166;
     border-radius: 0;
-    background: #121518;
+    background: #002d56;
     transition: .3s;
 }
 
 .service .service-item:hover a.btn {
-    color: #121518;
+    color: #fff;
     background: #aa9166;
 }
 
@@ -736,17 +737,17 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #121518;
+    background: #002d56;
 }
 
 .feature .feature-icon i {
-    width: 100px;
-    height: 100px;
-    padding: 20px 0;
+    width: 150px;
+    height: 150px;
+    padding: 40px 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     color: #aa9166;
-    background: #000000;
+    background: #002d56;
     transition: .5s;
 }
 
@@ -781,7 +782,7 @@ a:focus {
     position: relative;
     height: 100%;
     padding: 10px;
-    background: #121518;
+    background: #002d56;
 }
 
 .feature .feature-img img {
@@ -816,7 +817,7 @@ a:focus {
     position: relative;
     padding: 50px 15px 30px 15px;
     text-align: center;
-    background: #121518;
+    background: #101113;
 }
 
 .team .team-text h2 {
@@ -854,7 +855,7 @@ a:focus {
     margin-right: 15px;
     font-size: 18px;
     text-align: center;
-    color: #121518;
+    color: #002d56;
     transition: .3s;
 }
 
@@ -877,10 +878,10 @@ a:focus {
 }
 
 .faqs .faqs-img {
-    position: relative;
+   position: relative;
     height: 100%;
     padding: 10px;
-    background: #121518;
+    background: #002d56;
 }
 
 .faqs .faqs-img img {
@@ -901,13 +902,13 @@ a:focus {
     padding-top: 15px;
     border: none;
     border-radius: 0;
-    border-top: 1px solid #aa9166;
+    border-top: 1px solid #ffffff;
 }
 
 .faqs .card:last-child {
     margin-bottom: 0;
     padding-bottom: 15px;
-    border-bottom: 1px solid #aa9166;
+    border-bottom: 1px solid #ffffff;
 }
 
 .faqs .card-header {
@@ -919,19 +920,19 @@ a:focus {
 .faqs .card-header a {
     display: block;
     width: 100%;
-    color: #121518;
+    color: #002d56;
     font-size: 18px;
     line-height: 40px;
 }
 
 .faqs .card-header a span {
-    display: inline-block;
+   display: inline-block;
     width: 40px;
     height: 40px;
     margin-right: 10px;
     text-align: center;
-    background: #121518;
-    color: #aa9166;
+    background: #002d56;
+    color: #fbfbfb;
     font-weight: 700;
 }
 
@@ -939,7 +940,7 @@ a:focus {
     font-family: 'font Awesome 5 Free';
     content: "\f067";
     float: right;
-    color: #121518;
+    color: #002d56;
     font-size: 12px;
     font-weight: 900;
     transition: .3s;
@@ -949,7 +950,7 @@ a:focus {
     font-family: 'font Awesome 5 Free';
     content: "\f068";
     float: right;
-    color: #121518;
+    color: #002d56;
     font-size: 12px;
     font-weight: 900;
     transition: .3s;
@@ -963,22 +964,22 @@ a:focus {
 }
 
 .faqs a.btn {
-    position: relative;
+   position: relative;
     margin-top: 15px;
     padding: 15px 35px;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #fbfbfb;
     border: 2px solid #aa9166;
     border-radius: 0;
-    background: #121518;
+    background: #002d56;
     transition: .3s;
 }
 
 .faqs a.btn:hover {
-    color: #121518;
+    color: #002d56;
     background: #aa9166;
 }
 
@@ -1002,7 +1003,7 @@ a:focus {
     position: relative;
     margin: 0 15px;
     padding: 30px;
-    background: #121518;
+    background: #002d56;
     overflow: hidden;
     min-height: 580px;
 }
@@ -1054,7 +1055,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: #121518;
+    background: #002d56;
 }
 
 
@@ -1134,7 +1135,7 @@ a:focus {
 }
 
 .blog .blog-item a.btn:hover {
-    color: #121518;
+    color: #002d56;
 }
 
 .blog .owl-nav,
@@ -1153,18 +1154,18 @@ a:focus {
 }
 
 .blog .owl-dot.active {
-    background: #121518;
+    background: #002d56;
 }
 
 .blog .pagination .page-link {
-    color: #121518;
+    color: #002d56;
     border-radius: 0;
     border-color: #aa9166;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #121518;
+    color: #002d56;
     background: #aa9166;
 }
 
@@ -1269,7 +1270,7 @@ a:focus {
     display: inline-block;
     margin-right: 15px;
     padding: 5px 10px;
-    color: #121518;
+    color: #002d56;
     background: #aa9166;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -1343,7 +1344,7 @@ a:focus {
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 0;
-    background: #121518;
+    background: #002d56;
     border: 2px solid #aa9166;
     transition: .3s;
 }
@@ -1351,7 +1352,7 @@ a:focus {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
     background: #aa9166;
-    color: #121518;
+    color: #002d56;
 }
 
 .portfolio .load-more {
@@ -1365,7 +1366,7 @@ a:focus {
 }
 
 .portfolio .load-more .btn:hover {
-    color: #121518;
+    color: #002d56;
     background: #aa9166;
 }
 
@@ -1459,7 +1460,7 @@ a:focus {
     margin-bottom: 30px;
     width: 100%;
     padding: 30px;
-    background: #121518;
+    background: #002d56;
 }
 
 .contact .contact-item {
@@ -1469,7 +1470,7 @@ a:focus {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border: 2px solid #aa9166;
+    border: 2px solid #ffffff;
 }
 
 .contact .contact-item i {
@@ -1481,7 +1482,7 @@ a:focus {
     justify-content: center;
     font-size: 30px;
     color: #aa9166;
-    border: 2px solid #aa9166;
+    border: 2px solid #002d56;
 }
 
 .contact .contact-text {
@@ -1515,14 +1516,14 @@ a:focus {
     height: 60px;
     border-radius: 0;
     border-width: 2px;
-    border-color: #121518;
+    border-color: #002d56;
 }
 
 .contact .contact-form textarea {
     height: 190px;
     border-radius: 0;
     border-width: 2px;
-    border-color: #121518;
+    border-color: #002d56;
 }
 
 .contact .contact-form .btn {
@@ -1532,14 +1533,14 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #aa9166;
-    background: #121518;
+    background: #002d56;
     border: 2px solid #aa9166;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #121518;
+    color: #002d56;
     background: #aa9166;
 }
 
@@ -1613,7 +1614,7 @@ a:focus {
 
 .newsletter input {
     height: 50px;
-    border: 2px solid #121518;
+    border: 2px solid #002d56;
     border-radius: 0;
 }
 
@@ -1627,14 +1628,14 @@ a:focus {
     font-weight: 500;
     text-transform: uppercase;
     color: #aa9166;
-    background: #121518;
+    background: #002d56;
     border-radius: 0;
     border: 2px solid #aa9166;
     transition: .3s;
 }
 
 .newsletter .btn:hover {
-    color: #121518;
+    color: #002d56;
     background: #aa9166;
 }
 
@@ -1646,16 +1647,16 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 180px;
-    background: #121518;
+    background: #002d56;
     color: #ffffff;
 }
 
 .footer .footer-about,
 .footer .footer-link,
 .footer .footer-contact {
-    position: relative;
+   position: relative;
     margin-bottom: 45px;
-    color: #999999;
+    color: #fbfbfb;
 }
 
 .footer .footer-about h2,
@@ -1671,7 +1672,7 @@ a:focus {
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #999999;
+    color: #fbfbfb;
     transition: .3s;
 }
 
@@ -1718,13 +1719,13 @@ a:focus {
 .footer .footer-menu .f-menu {
     position: relative;
     padding: 15px 0;
-    background: #000000;
+    background: #d2d2d2;
     font-size: 0;
     text-align: center;
 }
 
 .footer .footer-menu .f-menu a {
-    color: #999999;
+    color: #002d56;
     font-size: 16px;
     margin-right: 15px;
     padding-right: 15px;
@@ -1748,7 +1749,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #999999;
+    color: #fbfbfb;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1777,10 +1778,11 @@ a:focus {
 /*******************************/
 /*********** Custom ************/
 /*******************************/
-.modal-body{    
+.modal-body {
     max-height: 350px;
     overflow-y: scroll;
 }
+
 .modal-header{
     align-items: center;
     justify-content: center;
@@ -1908,28 +1910,28 @@ a:focus {
 }
 
 .practice-area {
-    background-color: #101113;
+    background-color: #002d56;
 }
 
 .practice-area .container .prac-button {
-    height: 80px;
-    width: 80px;
-    background-color: #aa9166;
-    border-radius: 40px;
-    padding: 16px;
-    float:none;
-    margin:auto;
-    color: #101113;
-    font-size: 2rem;
-    border: solid 2px black;
+    height: 160px;
+    width: 160px;
+    background-color: #e67323;
+    border-radius: 80px;
+    padding: 30px;
+    float: none;
+    margin: auto;
+    color: #f8f9fa;
+    font-size: 4rem;
+    border: solid 2px #fbfbfb;
 }
 
 .practice-area .container .prac-button:hover{
-    padding: 10px;
-    font-size: 2.4rem;
-    border-color:#f68e20;
+    padding: 30px;
+    font-size: 4rem;
+    border-color:#fbfbfb;
     background-color: black;
-    color: #f68e20;
+    color: #ffffff;
 }
 
 .practice-area .container .prac-title {
@@ -1937,5 +1939,79 @@ a:focus {
 }
 
 .prac-title h1 {
-    color: #aa9166;
+    color: #ffffff;
+}
+
+
+
+.news .news-box a {
+    height: 38px;
+    line-height: 36px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 13px;
+    position: relative;
+    z-index: 9;
+    color: #305c81;
+    border: 1px solid #305c81;
+    padding: 0 15px;
+    border-radius: 38px;
+}
+
+
+@media (min-width: 768px)
+.intro-dialog {
+    width: 900px;
+    margin: 20px auto;
+
+    }
+    
+    
+    .intro-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 200%;
+    pointer-events: auto;
+    background-color: #fbfbfb;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3rem;
+    outline: 0;
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fbfbfb;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #495057;
+    border: 1px solid #999999;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+	.intro-body {
+    max-height: 350px;
+   
+}
+
+.intro-header{
+    align-items: center;
+    justify-content: center;
 }
