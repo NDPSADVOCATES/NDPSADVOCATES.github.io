@@ -1,12 +1,16 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+html {
+    overflow-x: hidden;
+}
 body {
     color: #666666;
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
     width: 100%;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 h1,
