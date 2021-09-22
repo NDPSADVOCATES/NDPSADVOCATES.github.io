@@ -82,7 +82,7 @@ a:focus {
 .top-bar {
   position: relative;
     height: 90px;
-    background: #94794b;
+    background: #6c757d;
 }
 
 .top-bar .logo {
@@ -245,7 +245,7 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #002d56 !important;
+        background: #495057 !important;
     }
     
     .nav-bar .navbar-brand {
@@ -1651,7 +1651,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 180px;
-    background: #002d56;
+    background: #495057;
     color: #ffffff;
 }
 
@@ -1723,7 +1723,7 @@ a:focus {
 .footer .footer-menu .f-menu {
     position: relative;
     padding: 15px 0;
-    background: #d2d2d2;
+    background: #6c757d;
     font-size: 0;
     text-align: center;
 }
